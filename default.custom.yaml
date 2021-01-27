@@ -1,0 +1,38 @@
+#全局使用者配置文件
+#必须在这里启用之后build里面才会出现小鹤双拼
+patch:
+  menu:
+    page_size: 5
+  schema_list:
+#  - schema: luna_pinyin_simp      # 朙月拼音 简化字
+#  - schema: luna_pinyin          # 朙月拼音
+#  - schema: luna_pinyin_fluency   # 语句流
+#  - schema: double_pinyin        # 自然碼雙拼
+  - schema: double_pinyin_flypy   # 小鹤雙拼
+#  - schema: wubi_pinyin           # 五笔拼音混合輸入
+
+
+#  ascii_composer/good_old_caps_lock: false # capslock 键切换英文并输出小写
+#  ascii_composer/switch_key:
+#    Caps_Lock: commit_code
+#    Control_L: noop
+#    Control_R: noop
+#    Shift_L: noop
+#    Shift_R: noop
+
+
+
+  #左右Shift鍵輸入時直接上屏並切換英文
+  "ascii_composer/switch_key/Shift_L": commit_code
+  "ascii_composer/switch_key/Shift_R": commit_code
+
+  #以方括号 “[” 和 “]” 来换页
+  key_binder/bindings:
+    - when: paging
+      accept: bracketleft
+      send: Page_Up
+    - when: has_menu
+      accept: bracketright
+      send: Page_Down
+    #Ctrl+句點切換ASCII標點
+    - {accept: "Control+period", toggle: ascii_punct, when: always}

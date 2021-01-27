@@ -1,0 +1,58 @@
+# Rime user dictionary
+#@/db_name	easy_en.userdb
+#@/db_type	userdb
+#@/rime_version	1.5.3
+#@/tick	112
+#@/user_id	fred-mbp
+adobe 	adobe	c=6 d=5.47162 t=112
+affinity 	affinity	c=1 d=0.985112 t=112
+away 	away	c=1 d=0.882496 t=112
+batter 	batter	c=1 d=0.932394 t=112
+bios 	bios	c=3 d=2.91673 t=112
+brew 	brew	c=1 d=0.985112 t=112
+changer 	changer	c=1 d=0.97531 t=112
+clear 	clear	c=1 d=1 t=112
+code 	code	c=2 d=1.96531 t=112
+contact 	contact	c=1 d=0.960789 t=112
+dark 	dark	c=1 d=0.965605 t=112
+docker 	docker	c=2 d=1.90727 t=112
+ecosystem 	ecosystem	c=2 d=1.81911 t=112
+fedora 	fedora	c=2 d=1.96062 t=112
+final 	final	c=2 d=1.90722 t=112
+friend 	friend	c=1 d=0.856415 t=112
+from 	from	c=1 d=0.88692 t=112
+gold 	gold	c=1 d=0.985112 t=112
+halo 	halo	c=1 d=0.951229 t=112
+hello 	hello	c=1 d=0.927743 t=112
+home 	home	c=1 d=0.985112 t=112
+install 	install	c=9 d=7.80466 t=112
+java 	java	c=2 d=1.81911 t=112
+keynote 	keynote	c=3 d=2.78325 t=112
+keyword 	keyword	c=1 d=0.965605 t=112
+kindle 	kindle	c=2 d=1.94575 t=112
+lily 	lily	c=1 d=0.97531 t=112
+line 	line	c=1 d=0.960789 t=112
+machine 	machine	c=1 d=0.860708 t=112
+main 	main	c=1 d=0.995012 t=112
+messenger 	messenger	c=1 d=0.946485 t=112
+micro 	micro	c=2 d=1.89771 t=112
+neural 	neural	c=1 d=0.856415 t=112
+nine 	nine	c=1 d=0.995012 t=112
+office 	office	c=16 d=12.3411 t=112
+okay 	okay	c=17 d=13.1374 t=112
+open 	open	c=1 d=0.869359 t=112
+page 	page	c=4 d=3.34805 t=112
+pizza 	pizza	c=1 d=0.852143 t=112
+safari 	safari	c=4 d=3.75706 t=112
+screen 	screen	c=1 d=0.88692 t=112
+server 	server	c=3 d=2.66238 t=112
+sorry 	sorry	c=1 d=0.985112 t=112
+sunshine 	sunshine	c=4 d=3.61724 t=112
+switch 	switch	c=4 d=3.83362 t=112
+terminal 	terminal	c=3 d=2.74692 t=112
+than 	than	c=1 d=0.937067 t=112
+time 	time	c=1 d=0.88692 t=112
+twitch 	twitch	c=1 d=0.88692 t=112
+type 	type	c=1 d=1 t=112
+window 	window	c=2 d=1.96042 t=112
+word 	word	c=1 d=1 t=112

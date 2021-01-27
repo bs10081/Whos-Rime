@@ -1,0 +1,132 @@
+# Rime table
+# coding: utf-8
+#@/db_name  custom_phrase.txt
+#@/db_type	tabledb
+#
+# 用於【朙月拼音】系列輸入方案
+# 【小狼毫】0.9.21 以上
+#
+# 請將該文件以UTF-8編碼保存爲
+# Rime用戶文件夾/custom_phrase.txt
+#
+# 碼表各字段以製表符（Tab）分隔
+# 順序爲：文字、編碼、權重（決定重碼的次序、可選）
+# 權重數字越大權重越大，最高99
+# 雖然文本碼表編輯較爲方便，但不適合導入大量條目
+#
+# no comment
+
+馬上到！	msd
+什麼玩意兒!	wtf	2
+What the fuck!	wtf	1
+WTF	wtf	3
+星際我爭霸		starcraft
+HorizonZeroDawn	hzd	4
+地平线：黎明时分	hzd	2
+正在開會，一會給你回復：）	meet
+中州韻輸入法引擎	rime	2
+又双叒叕	yyy
+http://rime.im/	rime	1
+Rime	rime	3
+⌘	cmd
+⌃	ctl
+⌥	opt
+⇧	shift
+GBK	gbk
+UTF-8	utfba
+baisheng10081@gmail.com	bmail
+scomper	scomper
+macOS High Sierra	macoshs
+macOS Catalina	macosca
+
+# 標點符號
+「」	tt
+『』	tt
+……	tt
+、	tt
+# 英文單字(一定會出現在首個字符)
+iOS	ios
+Android	android
+Android	and
+Windows	win
+Windows	windows	3
+Microsoft Windows	win	2
+Google	google
+Google	goo
+USB	usb
+ADB	adb
+macOS	macos
+ubuntu	Ubuntu
+VLC	vlc
+Apple	apple
+iPhone	iphone
+MacBook Pro	mbp
+CentOS	centos
+Rime	rime
+Discord	discord
+Python	python
+Rush	rush
+MacBook	macbook
+Chrome	chrome
+FaceID	faceid
+FaceTime	facetime
+ChromeOS	chromeos
+Notion	notion
+WeChat	wechat
+QQ	qq
+Visual Studio Code	vscode
+LINE	line
+Telegram	telegram
+Slack	slack
+Spack	spack
+iMessenge	imessenge
+Google Photos	googlephotos
+GUI	gui
+Anaconda	annaconda
+Anaconda	ana
+iPad	ipad
+iPad Pro	ipadpro
+iPad Air	ipadair
+iPad mini	iPadmini
+Github	github
+Apple Pencil	applepencil
+Node.js	node
+ECMScript	ecms
+GYP	gyp
+Foreign Function Interface	ffi
+package.json	pkgjs
+Generate Ninja	GN
+npm	npm
+License	lic
+Final Cut Pro	fcpx
+Firefox	firefox
+Youtube	ytb
+Player's Unknow Battle Grounos	pubg	2
+PUBG	pubg	3
+CSGO	csgo	3
+反恐開箱：全球血崩	csgo	1
+反恐精英：全球攻勢	csgo	2
+Microsoft	wwrr	3
+巨硬	wwrr	2
+
+
+# 英文縮寫
+I've	ive
+Thanks	thx
+How're	howre
+There're	therere
+#自定義漢語單詞
+ba	吧
+enenen	嗯嗯嗯
+ykykyk	嚶嚶嚶
+gckkdm	搞快點
+uihz	時候
+hc	好
+xswl	笑死我了
+Xmsl	羨慕死了
+woc	臥艹
+#摩斯密碼
+See you later.	cul
+Why do you not answer my question?	liouy
+	
+

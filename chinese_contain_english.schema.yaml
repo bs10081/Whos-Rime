@@ -1,0 +1,25 @@
+# chinese_contain_english.schema.yaml
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: chinese_contain_english
+  name: 英文
+  version: "0.1"
+  description:
+    为了配合「小鹤双拼·语句流」输入方案
+
+engine:
+  processors:
+    - speller               # 把字母追加到编码串
+    - selector              # 选字、换页
+    - navigator             # 移动插入点
+    - express_editor        # 空格确认当前输入、其他字符直接上屏
+  segmentors:
+    - abc_segmentor         # 标记输入码的类型
+  translators:
+    - echo_translator       # 没有候选项时，创建一个与编码串一个模样的候选项
+    - table_translator      # 码表式转换
+
+translator:
+  dictionary: chinese_contain_english       # 设定 table_translator 使用的词典名

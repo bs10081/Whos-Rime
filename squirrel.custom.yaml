@@ -1,0 +1,105 @@
+patch:
+  show_notifications_when: appropriate # 状态通知，适当，也可设为全开（always）全关（never）
+  style/color_scheme: Cx330Pink             # 方案命名，不能有空格
+  # preset_color_schemes:
+  #   system_blue:
+  #     author: "scomper <scomper@gmail.com>"   # 作者信息
+  #     back_color: 0xFFFFFF                    # 候选条背景色，24位色值，16进制，BGR顺序
+  #     border_color: 0xE0B693                  # 边框色
+  #     candidate_text_color: 0x000000          # 预选项文字颜色
+  #     comment_text_color: 0x999999            # 拼音等提示文字颜色
+  #     hilited_back_color: 0xe16300            # 第一候选项背景背景色
+  #     hilited_candidate_text_color: 0xFFFFFF  # 第一候选项文字颜色
+  #     hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
+  #     hilited_comment_text_color: 0x999999    # 注解文字高亮
+  #     hilited_text_color: 0x999999            # 高亮拼音 (需要开启内嵌编码)
+  #     name: "系统蓝／System Blue"
+  #     text_color: 0x424242                    # 拼音行文字颜色
+  #     label_color: 0x999999                   # 预选栏编号颜色
+
+  #     horizontal: true                        # 水平排列
+  #     inline_preedit: true                    # 单行显示，false双行显示
+  #     candidate_format: "%c\u2005%@\u2005"   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+  #     font_point: 18                          # 候选文字大小
+  #     label_font_point: 13                    # 候选编号大小
+  #     label_font_face: "SFCompactText-Regular" # 候选词编号字体
+  #     corner_radius: 5                        # 候选条圆角
+  #     hilited_corner_radius: 3                # 高亮圆角
+  #     border_height: 6                        # 窗口边界高度，大于圆角半径才生效
+  #     border_width: 6                         # 窗口边界宽度，大于圆角半径才生效
+  #     border_color_width: 0
+
+  "app_options/com.runningwithcrayons.Alfred-3/ascii_mode": true
+
+  preset_color_schemes/appsored:
+    author: "Astrian Zheng"
+    back_color: 0x2824C8
+    border_height: 6
+    border_width: 6
+    candidate_format: "%c. %@ "
+    candidate_text_color: 0xC5C3F2
+    comment_text_color: 0xFFFFFF
+    corner_radius: 6
+    font_point: 16
+    hilited_candidate_back_color: 0x2824C8
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    horizontal: true
+    label_color: 0xC5C3F2
+    label_font_point: 12
+    name: "AppSo 红"
+    text_color: 0xC5C3F2
+
+  preset_color_schemes:
+    Cx330Pink:
+      author: "Cx330"
+      back_color: 0x5d47ef
+      border_height: 6
+      border_width: 6
+      candidate_format: "%c. %@ "
+      candidate_text_color: 0xC5C3F2
+      comment_text_color: 0xFFFFFF
+      corner_radius: 6
+      font_point: 16
+      hilited_candidate_back_color: 0x5d47ef
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_text_color: 0xFFFFFF
+      horizontal: true
+      label_color: 0xC5C3F2
+      label_font_point: 12
+      name: "草茉莉紅"
+      text_color: 0xC5C3F2
+      
+  "preset_color_schemes/win10":  # 在配色方案列表裏加入標識爲 starcraft 的新方案
+        name: "Windows 10"
+        candidate_text_color: 0x000000  # 候選項文字顏色，當與文字顏色不同時指定
+        comment_text_color: 0x888888
+        text_color: 0x000000  # 編碼行文字顏色，24位色值，用十六進制書寫方便些，順序是藍綠紅0xBBGGRR
+        back_color: 0xffffff  # 底色
+        border_color: 0xcc8f29  # 邊框顏色，與底色相同則爲無邊框的效果
+        hilited_text_color: 0x000000  # 高亮文字，即與當前高亮候選對應的那部份輸入碼
+        hilited_back_color: 0x5d47ef  # 設定高亮文字的底色，可起到凸顯高亮部份的作用
+        hilited_candidate_text_color: 0xffffff  # 高亮候選項的文字顏色，要醒目！
+        hilited_candidate_back_color: 0xcc8f29  # 高亮候選項的底色，若與背景色不同就會顯出光棒
+        hilited_comment_text_color: 0xffffff
+        hilited_label_color: 0xffffff
+        label_color: 0x888888
+        label_format: "%s"
+        corner_radius: 5
+        font_point: 16
+        inline_preedit: true
+        min_width: 160
+        min_height: 0
+        border_width: 6
+        border_height: 6
+        margin_x: 12
+        margin_y: 12
+        spacing: 10
+        candidate_spacing: 24
+        hilite_spacing: 8
+        hilite_padding: 12
+        round_corner: 0
+        horizontal: true
+        candidate_format: "%c %@  "

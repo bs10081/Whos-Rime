@@ -1,0 +1,49 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Sep 25 23:09:35 2019"
+  rime_version: 1.5.3
+patch:
+  style/color_scheme: win10
+  style/horizontal: true
+  style/inline_preedit: true
+  style/layout/border_width: 1
+  style/layout/candidate_spacing: 30
+  style/layout/margin_x: 15
+  style/layout/margin_y: 10
+  style/layout/round_corner: 0
+  style/layout/hilite_padding: 15
+  style/font_point: 13
+ 
+  "preset_color_schemes/win10":  # 在配色方案列表裏加入標識爲 starcraft 的新方案
+    name: "Windows 10"
+    candidate_text_color: 0x000000  # 候選項文字顏色，當與文字顏色不同時指定
+    comment_text_color: 0x888888
+    text_color: 0x000000  # 編碼行文字顏色，24位色值，用十六進制書寫方便些，順序是藍綠紅0xBBGGRR
+    back_color: 0xffffff  # 底色
+    border_color: 0xcc8f29  # 邊框顏色，與底色相同則爲無邊框的效果
+    hilited_text_color: 0x000000  # 高亮文字，即與當前高亮候選對應的那部份輸入碼
+    hilited_back_color: 0x5d47ef  # 設定高亮文字的底色，可起到凸顯高亮部份的作用
+    hilited_candidate_text_color: 0xffffff  # 高亮候選項的文字顏色，要醒目！
+    hilited_candidate_back_color: 0xcc8f29  # 高亮候選項的底色，若與背景色不同就會顯出光棒
+    hilited_comment_text_color: 0xffffff
+    hilited_label_color: 0xffffff
+    label_color: 0x888888
+    label_format: "%s"
+    corner_radius: 5
+    font_point: 16
+    inline_preedit: true
+    min_width: 160
+    min_height: 0
+    border_width: 6
+    border_height: 6
+    margin_x: 12
+    margin_y: 12
+    spacing: 10
+    candidate_spacing: 24
+    hilite_spacing: 8
+    hilite_padding: 12
+    round_corner: 0
+    horizontal: true
+    candidate_format: "%c %@  "
