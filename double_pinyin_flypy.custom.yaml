@@ -35,7 +35,7 @@ patch:
       reset: 0
       states: ["半角", "全角"]
     - name: simplification
-      reset: 0
+      reset: 1
       states: [ "漢字", "汉字" ]
     - options: ["utf8", "gbk", "gb2312"] # (※2)字符集選單
       reset: 0                           #     默認 UTF
@@ -51,7 +51,7 @@ patch:
     #   states: [ "簡化字", "標準字" ]
     - name: t2tw                  # 正繁轉換
       states: [ "傳承字", "標準字" ]
-      reset: 1
+      reset: 0
   # simplifier:
   #   option_name: zh_simp
 
