@@ -24,7 +24,7 @@ patch:
       reset: 0
       states: ["半角", "全角"]
     - name: zh_simp                      # (※1) 繁简转换
-      reset: 0
+      reset: 1
       states: ["漢字", "汉字"]
     - options: ["utf8", "gbk", "gb2312"] # (※2)字符集选单
       reset: 0                           #     默认 UTF8
