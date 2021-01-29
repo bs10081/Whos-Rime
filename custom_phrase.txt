@@ -34,10 +34,8 @@ Rime	rime	3
 ⇧	shift
 GBK	gbk
 UTF-8	utfba
-baisheng10081@gmail.com	bmail
 scomper	scomper
-macOS High Sierra	macoshs
-macOS Catalina	macosca
+
 
 # 標點符號
 「」	tt
@@ -104,6 +102,9 @@ Youtube	ytb
 Player's Unknow Battle Grounos	pubg	2
 PUBG	pubg	3
 CSGO	csgo	3
+macOS High Sierra	macoshs
+macOS Catalina	macosca
+macOS Big Sur	macosbi
 反恐開箱：全球血崩	csgo	1
 反恐精英：全球攻勢	csgo	2
 Microsoft	wwrr	3

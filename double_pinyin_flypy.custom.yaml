@@ -34,9 +34,9 @@ patch:
     - name: full_shape
       reset: 0
       states: ["半角", "全角"]
-    - name: zh_simp                      # (※1) 繁简转换
+    - name: simplification
       reset: 0
-      states: ["漢字", "汉字"]
+      states: [ "漢字", "汉字" ]
     - options: ["utf8", "gbk", "gb2312"] # (※2)字符集選單
       reset: 0                           #     默認 UTF
       states:
@@ -46,24 +46,23 @@ patch:
     - name: show_emoji
       reset: 1
       states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
-    - name: s2tw                  # 簡繁轉換
-      reset: 1
-      states: [ "簡化字", "標準字" ]
+    # - name: s2tw                  # 簡繁轉換
+    #   reset: 1
+    #   states: [ "簡化字", "標準字" ]
     - name: t2tw                  # 正繁轉換
       states: [ "傳承字", "標準字" ]
       reset: 1
-  simplifier:
-    option_name: zh_simp
+  # simplifier:
+  #   option_name: zh_simp
 
   engine/filters:
       - simplifier
       - simplifier@emoji_conversion
-      - uniquifier
       - charset_filter@gbk              # (※3) GBK 過濾
       - single_char_filter
       - simplifier@s2tw  # 簡繁轉換
       - simplifier@t2tw  # 正繁轉換
-      - uniquifier  　　　# 過濾重複的候選字，有可能來自正繁簡轉換
+      - uniquifier  # 過濾重複的候選字，有可能來自正繁簡轉換
       - cjk_minifier
 
 
@@ -84,10 +83,10 @@ patch:
 # 載入朙月拼音擴充詞庫
   "translator/dictionary": luna_pinyin.extended
 # 採用臺灣正體
-  s2tw: # 簡繁轉換
-    option_name: s2tw
-    opencc_config: s2tw.json
-    tips: none
+  # s2tw: # 簡繁轉換
+  #   option_name: s2tw
+  #   opencc_config: s2tw.json
+  #   tips: none
 
   t2tw: # 正繁轉換
     option_name: t2tw
