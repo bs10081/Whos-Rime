@@ -1,7 +1,8 @@
 # 柴妹的中州韻輸入法引擎配置
 [![Commit](https://img.shields.io/github/last-commit/bs10081/Rime-Cx330/main?color=red)](https://github.com/bs10081/Rime-Cx330/archive/0.2.1.zip)
-![Star](https://img.shields.io/github/stars/bs10081/Rime-Cx330)
 [![GitHub Tag](https://img.shields.io/github/tag/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/releases)
+![Star](https://img.shields.io/github/stars/bs10081/Rime-Cx330)
+[![GitHub issues](https://img.shields.io/github/issues/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/issues)
 
 ## 感謝使用本Rime配置文件
 
@@ -38,13 +39,6 @@
 - 〔macOS版外觀〕`squirrel.custim.yaml`
 - 〔emoji〕`/Opencc/emoji*`
 > 編輯時請使用Tab，禁止使用空格，否則配置文件將失效，甚至導致編譯失敗。
-
----
-
-## 問題&建議回饋
-[![GitHub issues](https://img.shields.io/github/issues/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/issues)
-
----
 
 # 請柴妹喝杯咖啡
 
