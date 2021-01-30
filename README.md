@@ -40,6 +40,21 @@
 - 〔emoji〕`/Opencc/emoji*`
 > 編輯時請使用Tab，禁止使用空格，否則配置文件將失效，甚至導致編譯失敗。
 
+具體配置修改方法請詳讀 [官方wiki](https://github.com/rime/home/wiki)
+
+---
+# 官方文件
+## Rime::Home
+
+[![Join the chat at https://gitter.im/rime/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rime/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+​
+## Rime Bug Report
+[![GitHub issues](https://img.shields.io/github/issues/rime/home.svg)](https://github.com/rime/home/issues)
+
+## 本倉庫依賴 [Rime](https://github.com/rime/home)
+
+### [![Rime網站](https://img.shields.io/badge/Website-Rime-9cf)](https://rime.im)
+
 # 請柴妹喝杯咖啡
 
 LBC錢包地址：`bc2FpeaknTyveZhzTatj6VWjshmxVYPfC5`
