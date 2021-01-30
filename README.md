@@ -46,7 +46,7 @@
 
 ---
 
-# 請開發喝杯咖啡
+# 請柴妹喝杯咖啡
 
 LBC錢包地址：`bc2FpeaknTyveZhzTatj6VWjshmxVYPfC5`
 BTC錢包地址：`38Hv6BwFgwLPb94FCA8piBZXYNewgW9csu`
