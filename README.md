@@ -1,5 +1,5 @@
 # 柴妹的中州韻輸入法引擎配置
-[![Download times](https://img.shields.io/github/downloads/bs10081/Rime-Cx330/0.2.1/total?label=Downloads)](https://github.com/bs10081/Rime-Cx330/archive/0.2.1.zip)
+[![Commit](https://img.shields.io/github/last-commit/bs10081/Rime-Cx330/main?color=red)](https://github.com/bs10081/Rime-Cx330/archive/0.2.1.zip)
 ![Star](https://img.shields.io/github/stars/bs10081/Rime-Cx330)
 [![GitHub Tag](https://img.shields.io/github/tag/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/releases)
 
