@@ -6,11 +6,11 @@
 ## 感謝使用本Rime配置文件
 
 本輸入法適配小鶴雙拼、全拼、五筆
-
+S
 支持中英混合輸入、Emoji輸入、簡繁轉換、傳承字標準字轉換、UTF-8 GBK編碼轉換、200萬詞庫覆蓋日常絕大多數場景。
 
 ## 使用方法
-前往 [![Release](https://img.shields.io/github/tag/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/releases) 下載最新版本的配置檔案，解壓縮後將所有文件覆蓋到用戶資料夾
+前往 [Release](https://github.com/bs10081/Rime-Cx330/releases) 下載最新版本的配置檔案，解壓縮後將所有文件覆蓋到用戶資料夾
 
 - Linux： `~/.config/ibus/rime/`
 - Windows： `%APPDATA%\Rime`
