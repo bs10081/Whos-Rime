@@ -16,7 +16,8 @@
 - Windows： `%APPDATA%\Rime`
 - macOS：`~/Library/Rime/`
 
-然後點擊輸入法中的重新部署來完成編譯，這樣就大功告成了，是不是很簡單呢？😁
+然後點擊輸入法中的[重新部署](https://github.com/rime/home/wiki/CustomizationGuide#%E5%BF%85%E7%9F%A5%E5%BF%85%E6%9C%83)來完成編譯，這樣就大功告成了，是不是很簡單呢？😁
+
 
 > 在「部署」操作時，將用到輸入方案源文件、並結合上述資料夾的定製的內容來編譯輸入方案。
 
