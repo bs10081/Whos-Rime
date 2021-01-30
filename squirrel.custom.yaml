@@ -1,6 +1,6 @@
 patch:
   show_notifications_when: appropriate # 状态通知，适当，也可设为全开（always）全关（never）
-  style/color_scheme: Cx330Pink             # 方案命名，不能有空格
+  style/color_scheme: Cx330Pink             # 選用的方案命名，不能有空格
   # preset_color_schemes:
   #   system_blue:
   #     author: "scomper <scomper@gmail.com>"   # 作者信息
@@ -74,6 +74,7 @@ patch:
       
   "preset_color_schemes/win10":  # 在配色方案列表裏加入標識爲 starcraft 的新方案
         name: "Windows 10"
+        author: "Cx330"
         candidate_text_color: 0x000000  # 候選項文字顏色，當與文字顏色不同時指定
         comment_text_color: 0x888888
         text_color: 0x000000  # 編碼行文字顏色，24位色值，用十六進制書寫方便些，順序是藍綠紅0xBBGGRR

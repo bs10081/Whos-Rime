@@ -5,7 +5,7 @@ customization:
   modified_time: "Wed Sep 25 23:09:35 2019"
   rime_version: 1.5.3
 patch:
-  style/color_scheme: win10
+  style/color_scheme: win10     #選用的配色方案名稱，不能含有空格
   style/horizontal: true
   style/inline_preedit: true
   style/layout/border_width: 1
