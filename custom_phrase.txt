@@ -20,7 +20,7 @@
 什麼玩意兒!	wtf	2
 What the fuck!	wtf	1
 WTF	wtf	3
-星際我爭霸		starcraft
+星際爭霸		starcraft
 HorizonZeroDawn	hzd	4
 地平线：黎明时分	hzd	2
 正在開會，一會給你回復：）	meet
@@ -81,7 +81,6 @@ iMessenge	imessenge
 Google Photos	googlephotos
 GUI	gui
 Anaconda	annaconda
-Anaconda	ana
 iPad	ipad
 iPad Pro	ipadpro
 iPad Air	ipadair
@@ -96,38 +95,72 @@ package.json	pkgjs
 Generate Ninja	GN
 npm	npm
 License	lic
-Final Cut Pro	fcpx
+Final Cut Pro X finalcutprox
 Firefox	firefox
-Youtube	ytb
-Player's Unknow Battle Grounos	pubg	2
+Youtube youtube
+Youtuber    youtuber
 PUBG	pubg	3
 CSGO	csgo	3
-macOS High Sierra	macoshs
-macOS Catalina	macosca
-macOS Big Sur	macosbi
+macOS High Sierra	macoshs 1
+macOS Catalina	macosca 1
+macOS Big Sur	macosbigsur 1
+macOS Big Sur   macosbi 1
 反恐開箱：全球血崩	csgo	1
 反恐精英：全球攻勢	csgo	2
 Microsoft	wwrr	3
+Microsoft	weiruan	3
+OneDrive    onedrive    1
 巨硬	wwrr	2
+巨硬	weiruan	2
+柴妹    chaimei 1
+柴妹    idmw    1
 
 
 # 英文縮寫
-I've	ive
-Thanks	thx
-How're	howre
-There're	therere
+I've	ive 2
+Thanks	thx 2
+How're	howre   2
+There're	therere 2
+By The Way  btw 2
+Just kidding    jk  2
+I don't know    idk 2
+Too much information    tmi 2
+No problem  np  2
+To be honest    tbh 2
+In my humble opinion    imho    2
+Rolling on the floor laughing   rofl    2
+Too long; Didn't read   tl;dr   2
+Talk to you later   ttyl    2
+Player's Unknow Battle Grounos	pubg	2
+Final Cut Pro	fcpx
+Youtube	ytb
+Anaconda	ana
+
+
 #自定義漢語單詞
-ba	吧
 enenen	嗯嗯嗯
-ykykyk	嚶嚶嚶
-gckkdm	搞快點
+ykykyk	嚶嚶嚶  1
+yinyinyin	嚶嚶嚶  1
+gckkdm	搞快點  1
+gkd 搞快點  2
 uihz	時候
 hc	好
-xswl	笑死我了
-Xmsl	羨慕死了
-woc	臥艹
+xswl	笑死我了    2
+xmsl	羨慕死了    2
+awsl    啊我死了    2
+woc	臥艹    2
+wdnmd   我屌你媽的  2
+
+
 #摩斯密碼
 See you later.	cul
 Why do you not answer my question?	liouy
-	
-
+Again   agn
+Address ads
+American Radio Relay League arrl
+All between abn
+Calling clg
+Because cuz
+Good evening    ge
+Good morning    gm 
+Good afternoon  ga 
