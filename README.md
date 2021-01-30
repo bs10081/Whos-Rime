@@ -46,6 +46,6 @@
 
 ---
 
-## 打賞
+# 請開發喝杯咖啡
 
 LBC錢包地址：`bc2FpeaknTyveZhzTatj6VWjshmxVYPfC5`
