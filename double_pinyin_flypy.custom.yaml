@@ -51,7 +51,7 @@ patch:
     #   states: [ "簡化字", "標準字" ]
     - name: t2tw                  # 正繁轉換
       states: [ "傳承字", "標準字" ]
-      reset: 1
+      reset: 0
   # simplifier:
   #   option_name: zh_simp
 
