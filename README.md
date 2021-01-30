@@ -33,7 +33,7 @@
 - 〔符號管理〕`symbols.yaml`
 - 〔Windows版外觀〕`weasel.custom.yaml`
 - 〔macOS版外觀〕`squirrel.custim.yaml`
-
+- 〔emoji〕`/Opencc/emoji*`
 > 編輯時請使用Tab，禁止使用空格，否則配置文件將失效，甚至導致編譯失敗。
 
 ---
