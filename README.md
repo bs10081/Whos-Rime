@@ -1,4 +1,6 @@
 # 柴妹的中州韻輸入法引擎配置
+[![Download](https://img.shields.io/badge/Download-0.2.0-blue)](https://github.com/bs10081/Rime-Cx330/archive/0.2.0.zip)
+[![GitHub Tag](https://img.shields.io/github/tag/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330)
 ## 感謝使用本Rime配置文件
 
 本輸入法適配小鶴雙拼、全拼、五筆
@@ -39,7 +41,9 @@
 ---
 
 ## 問題&建議回饋
-[![GitHub issues](https://github.com/bs10081/Rime-Cx330/issues)
+[![GitHub issues](https://img.shields.io/github/issues/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/issues)
+
+---
 
 ## 打賞
 
