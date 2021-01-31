@@ -40,4 +40,5 @@ import_tables:
   - luna_pinyin.computer
   - luna_pinyin.history
   - luna_pinyin.shopping
+  - chinese_contain_english
 ...
