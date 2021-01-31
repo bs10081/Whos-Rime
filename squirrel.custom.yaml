@@ -69,6 +69,7 @@ patch:
       horizontal: true
       label_color: 0xC5C3F2
       label_font_point: 12
+      label_font_face: "PingFang SC Medium" #皮膚字體
       name: "草茉莉紅"
       text_color: 0xC5C3F2
       
