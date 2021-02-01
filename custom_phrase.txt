@@ -97,8 +97,8 @@ npm	npm
 License	lic
 Final Cut Pro X finalcutprox
 Firefox	firefox
-Youtube youtube
-Youtuber    youtuber
+Youtube youtube 1
+Youtuber    youtuber    1
 PUBG	pubg	3
 CSGO	csgo	3
 macOS High Sierra	macoshs 1
