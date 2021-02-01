@@ -98,7 +98,7 @@ License	lic
 Final Cut Pro X finalcutprox
 Firefox	firefox
 Youtube youtube 1
-Youtuber    youtuber    1
+Youtuber    youtuber    
 PUBG	pubg	3
 CSGO	csgo	3
 macOS High Sierra	macoshs 1
