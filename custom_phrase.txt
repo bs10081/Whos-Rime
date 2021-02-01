@@ -109,7 +109,6 @@ macOS Big Sur   macosbi 1
 反恐精英：全球攻勢	csgo	2
 Microsoft	wwrr	3
 Microsoft	weiruan	3
-OneDrive    onedrive    1
 巨硬	wwrr	2
 巨硬	weiruan	2
 柴妹    chaimei 1
