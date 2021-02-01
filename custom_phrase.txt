@@ -54,7 +54,7 @@ Google	goo
 USB	usb
 ADB	adb
 macOS	macos
-ubuntu	Ubuntu
+Ubuntu	ubuntu
 VLC	vlc
 Apple	apple
 iPhone	iphone
@@ -68,7 +68,7 @@ MacBook	macbook
 Chrome	chrome
 FaceID	faceid
 FaceTime	facetime
-ChromeOS	chromeos
+Chrome OS	chromeos
 Notion	notion
 WeChat	wechat
 QQ	qq
@@ -77,7 +77,7 @@ LINE	line
 Telegram	telegram
 Slack	slack
 Spack	spack
-iMessenge	imessenge
+iMessage	imessage
 Google Photos	googlephotos
 GUI	gui
 Anaconda	annaconda
@@ -85,10 +85,10 @@ iPad	ipad
 iPad Pro	ipadpro
 iPad Air	ipadair
 iPad mini	iPadmini
-Github	github
+GitHub	github
 Apple Pencil	applepencil
 Node.js	node
-ECMScript	ecms
+ECMAScript	ecmas
 GYP	gyp
 Foreign Function Interface	ffi
 package.json	pkgjs
@@ -97,8 +97,8 @@ npm	npm
 License	lic
 Final Cut Pro X finalcutprox
 Firefox	firefox
-Youtube youtube 1
-Youtuber    youtuber    
+YouTube	youtube	1
+YouTuber	youtuber
 PUBG	pubg	3
 CSGO	csgo	3
 macOS High Sierra	macoshs 1
@@ -134,6 +134,7 @@ Player's Unknow Battle Grounos	pubg	2
 Final Cut Pro	fcpx
 Youtube	ytb
 Anaconda	ana
+Microsoft	msft
 
 
 #自定義漢語單詞
