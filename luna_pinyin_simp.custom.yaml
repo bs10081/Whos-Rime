@@ -154,3 +154,8 @@ patch:
     #'translator/preedit_format':
    #  - "xform/([nljqxyzcs])v/$1ü/"
 
+__patch:
+# Rx: BlindingDark/rime-easy-en:customize:schema=luna_pinyin_simp {
+  - patch/+:
+      __include: easy_en:/patch
+# }
