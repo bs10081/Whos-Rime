@@ -53,12 +53,8 @@ Google	google
 Google	goo
 USB	usb
 ADB	adb
-macOS	macos
 Ubuntu	ubuntu
 VLC	vlc
-Apple	apple
-iPhone	iphone
-MacBook Pro	mbp
 CentOS	centos
 Rime	rime
 Discord	discord
@@ -66,8 +62,6 @@ Python	python
 Rush	rush
 MacBook	macbook
 Chrome	chrome
-FaceID	faceid
-FaceTime	facetime
 Chrome OS	chromeos
 Notion	notion
 WeChat	wechat
@@ -81,12 +75,7 @@ iMessage	imessage
 Google Photos	googlephotos
 GUI	gui
 Anaconda	annaconda
-iPad	ipad
-iPad Pro	ipadpro
-iPad Air	ipadair
-iPad mini	iPadmini
 GitHub	github
-Apple Pencil	applepencil
 Node.js	node
 ECMAScript	ecmas
 GYP	gyp
@@ -101,18 +90,17 @@ YouTube	youtube	1
 YouTuber	youtuber
 PUBG	pubg	3
 CSGO	csgo	3
-macOS High Sierra	macoshs 1
-macOS Catalina	macosca 1
-macOS Big Sur	macosbigsur 1
-macOS Big Sur   macosbi 1
-反恐開箱：全球血崩	csgo	1
-反恐精英：全球攻勢	csgo	2
-Microsoft	wwrr	3
-Microsoft	weiruan	3
-巨硬	wwrr	2
-巨硬	weiruan	2
-柴妹    chaimei 1
-柴妹    idmw    1
+# 蘋果產品
+macOS	macos
+Apple	apple
+iPhone	iphone
+MacBook Pro	mbp
+FaceID	faceid
+FaceTime	facetime
+iPad	ipad
+iPad Pro	ipadpro
+iPad Air	ipadair
+iPad mini	iPadmini
 AirPods airpods 1
 AirPods Pro airpodspro  1
 AirPods Max airpodsmax  1
@@ -122,6 +110,20 @@ iMac    imac    1
 iMac Pro    imacpro 1
 MacBook Pro macbookpro  1
 MacBook Air macbookair  1
+macOS High Sierra	macoshs 1
+macOS Catalina	macosca 1
+macOS Big Sur	macosbigsur 1
+macOS Big Sur   macosbi 1
+# 還沒分好類
+反恐開箱：全球血崩	csgo	1
+反恐精英：全球攻勢	csgo	2
+Microsoft	wwrr	3
+Microsoft	weiruan	3
+巨硬	wwrr	2
+巨硬	weiruan	2
+柴妹    chaimei 1
+柴妹    idmw    1
+
 
 
 # 英文縮寫
