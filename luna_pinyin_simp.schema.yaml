@@ -12,17 +12,17 @@ schema:
   description: |
     朙月拼音，簡化字輸出模式。
 
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: zh_simp
-    reset: 1
-    states: [ 漢字, 汉字 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
+# switches:
+#   - name: ascii_mode
+#     reset: 0
+#     states: [ 中文, 西文 ]
+#   - name: full_shape
+#     states: [ 半角, 全角 ]
+#   - name: zh_simp
+#     reset: 1
+#     states: [ 漢字, 汉字 ]
+#   - name: ascii_punct
+#     states: [ 。，, ．， ]
 
 translator:
   prism: luna_pinyin_simp

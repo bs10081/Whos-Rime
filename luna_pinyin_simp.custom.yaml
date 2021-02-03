@@ -40,9 +40,12 @@ patch:
   engine/filters:
       - simplifier
       - simplifier@emoji_conversion
-      - uniquifier
       - charset_filter@gbk              # (※3) GBK 过滤
       - single_char_filter
+      - simplifier@s2tw  # 簡繁轉換
+      - simplifier@t2tw  # 正繁轉換
+      - uniquifier  # 過濾重複的候選字，有可能來自正繁簡轉換
+
 
   emoji_conversion:
     opencc_config: emoji.json
@@ -68,6 +71,17 @@ patch:
 #  拼写纠错
   "translator/enable_correction": true
 
+# 採用臺灣正體
+  # s2tw: # 簡繁轉換
+  #   option_name: s2tw
+  #   opencc_config: s2tw.json
+  #   tips: none
+
+  t2tw: # 正繁轉換
+    option_name: t2tw
+    opencc_config: t2tw.json
+    tips: none
+    
 #  符号快速输入和部分符号的快速上屏
   punctuator:
     import_preset: symbols
