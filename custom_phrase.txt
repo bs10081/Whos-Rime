@@ -113,6 +113,15 @@ Microsoft	weiruan	3
 巨硬	weiruan	2
 柴妹    chaimei 1
 柴妹    idmw    1
+AirPods airpods 1
+AirPods Pro airpodspro  1
+AirPods Max airpodsmax  1
+Apple Watch applewatch  1
+Apple Pencil    applepencil 1
+iMac    imac    1
+iMac Pro    imacpro 1
+MacBook Pro macbookpro  1
+MacBook Air macbookair  1
 
 
 # 英文縮寫
