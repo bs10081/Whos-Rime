@@ -136,7 +136,8 @@ patch:
   english:  # english 翻譯器的設定項
     dictionary: easy_en
     spelling_hints: 9
-    enable_completion: false     # 是否启用英文输入联想补全
-    enable_sentence: false
-    initial_quality: 0           # 调整英文候选词的位置，如 -3 会更靠后
+    enable_completion: false      # 是否启用英文输入联想补全
+    enable_sentence: false        # 關閉造句功能
+    enable_user_dict: true        # 智能詞頻功能
+    initial_quality: -1           # 调整英文候选词的位置，如 -3 会更靠后
 
