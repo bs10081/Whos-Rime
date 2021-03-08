@@ -40,9 +40,12 @@ patch:
   engine/filters:
       - simplifier
       - simplifier@emoji_conversion
-      - uniquifier
       - charset_filter@gbk              # (※3) GBK 过滤
       - single_char_filter
+      - simplifier@s2tw  # 簡繁轉換
+      - simplifier@t2tw  # 正繁轉換
+      - uniquifier  # 過濾重複的候選字，有可能來自正繁簡轉換
+
 
   emoji_conversion:
     opencc_config: emoji.json
@@ -68,6 +71,17 @@ patch:
 #  拼写纠错
   "translator/enable_correction": true
 
+# 採用臺灣正體
+  # s2tw: # 簡繁轉換
+  #   option_name: s2tw
+  #   opencc_config: s2tw.json
+  #   tips: none
+
+  t2tw: # 正繁轉換
+    option_name: t2tw
+    opencc_config: t2tw.json
+    tips: none
+    
 #  符号快速输入和部分符号的快速上屏
   punctuator:
     import_preset: symbols
@@ -154,3 +168,19 @@ patch:
     #'translator/preedit_format':
    #  - "xform/([nljqxyzcs])v/$1ü/"
 
+__patch:
+# Rx: BlindingDark/rime-easy-en:customize:schema=luna_pinyin_simp {
+  - patch/+:
+      __include: easy_en:/patch
+# }
+
+# 加載 easy_en 依賴
+  "schema/dependencies/@1": easy_en
+  "engine/translators/@4": table_translator@english  # 載入翻譯英文的碼表翻譯器，取名爲 english
+  english:  # english 翻譯器的設定項
+    dictionary: easy_en
+    spelling_hints: 9
+    enable_completion: false      # 是否启用英文输入联想补全
+    enable_sentence: false        # 關閉造句功能
+    enable_user_dict: true        # 智能詞頻功能
+    initial_quality: -1           # 调整英文候选词的位置，如 -3 会更靠后
