@@ -5,16 +5,22 @@
 schema:
   schema_id: easy_en
   name: Easy English
-  version: "0.2"
+  version: "0.8.1"
   author:
     - Patrick <ipatrickmac@gmail.com>
+    - BlindingDark <blindingdark@outlook.com>
   description:
     Easy English
+
+easy_en:
+  split_sentence: true
+  use_wordninja_rs: true
+  wordninja_rs_path: "/usr/bin/wordninja"
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ On, Off ]
+    states: [ ASCII-OFF, ASCII-ON ]
 
 engine:
   processors:
@@ -37,20 +43,22 @@ engine:
     - punct_translator
   filters:
     - uniquifier
+    - lua_filter@easy_en_enhance_filter
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"
 
 translator:
   dictionary: easy_en
   spelling_hints: 9
+  comment_format:
+    - xform/^.+$//
 
 key_binder:
   import_preset: default
 
-punctuator:
-  import_preset: default
-
 recognizer:
   import_preset: default
+  patterns:
+    uppercase: ''
