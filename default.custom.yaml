@@ -10,10 +10,10 @@ patch:
   - schema: double_pinyin_flypy   # 小鹤雙拼
   - schema: wubi_pinyin           # 五笔拼音混合輸入
 
-# 以下功能暫時無法使用，得等我找到解決的辦法
+#以下功能暫時無法使用，得等我找到解決的辦法
 #  ascii_composer/good_old_caps_lock: false # capslock 键切换英文并输出小写
 #  ascii_composer/switch_key:
-#    Caps_Lock: commit_code
+#    Caps_Lock: commit_coed
 #    Control_L: noop
 #    Control_R: noop
 #    Shift_L: noop
