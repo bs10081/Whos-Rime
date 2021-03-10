@@ -18,7 +18,7 @@
 隨後前往 [Release](https://github.com/bs10081/Rime-Cx330/releases) 下載最新版本的配置檔案，解壓縮後將所有文件覆蓋到Rime的用戶資料夾
 
 - Linux： `~/.config/ibus/rime/`
-- Windows： `%APPDATA%\Rime`
+- Windows： `\%APPDATA%\Rime`
 - macOS：`~/Library/Rime/`
 
 然後點擊輸入法中的[重新部署](https://github.com/rime/home/wiki/CustomizationGuide#%E5%BF%85%E7%9F%A5%E5%BF%85%E6%9C%83)來完成編譯，這樣就大功告成了，是不是很簡單呢？😁
