@@ -71,7 +71,8 @@ patch:
     enable_completion: false
     enable_sentence: false
     initial_quality: 1
-  "engine/translators/@4": table_translator@custom_phrase
+  "engine/translators/@5": table_translator@custom_phrase
+
 
 
 # 加載 easy_en 依賴
@@ -84,3 +85,5 @@ patch:
     enable_sentence: false        # 關閉造句功能
     enable_user_dict: true        # 智能詞頻功能
     initial_quality: -1           # 调整英文候选词的位置，如 -3 会更靠后
+
+    
