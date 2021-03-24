@@ -15,7 +15,7 @@
 
 [![Rime網站](https://img.shields.io/badge/Website-Rime-9cf)](https://rime.im) 
 
-隨後前往 [Release](https://github.com/bs10081/Rime-Cx330/releases) 下載最新版本的配置檔案，解壓縮後將所有文件覆蓋到Rime的用戶資料夾
+隨後前往 [Release](https://github.com/bs10081/Rime-Cx330/releases) 下載最新版本的配置檔案(Source Code)，解壓縮後將所有文件覆蓋到Rime的用戶資料夾
 
 - Linux： `~/.config/ibus/rime/`
 - Windows： `\%APPDATA%\Rime`
