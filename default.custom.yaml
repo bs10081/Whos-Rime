@@ -13,7 +13,7 @@ patch:
 #以下功能暫時無法使用，得等我找到解決的辦法
 #  ascii_composer/good_old_caps_lock: false # capslock 键切换英文并输出小写
 #  ascii_composer/switch_key:
-#    Caps_Lock: commit_coed
+#    Caps_Lock: commit_code
 #    Control_L: noop
 #    Control_R: noop
 #    Shift_L: noop
