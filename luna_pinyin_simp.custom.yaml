@@ -16,7 +16,6 @@
 # 朙月拼音·語句流	luna_pinyin_fluency
 
 patch:
-
   switches:
     - name: ascii_mode
       reset: 0
@@ -24,11 +23,11 @@ patch:
     - name: full_shape
       reset: 0
       states: ["半角", "全角"]
-    - name: simplification
+    - name: zh_simp                      # (※1) 繁简转换
       reset: 1
-      states: [ "漢字", "汉字" ]
-    - options: ["utf8", "gbk", "gb2312"] # (※2)字符集選單
-      reset: 0                           #     默認 UTF
+      states: ["漢字", "汉字"]
+    - options: ["utf8", "gbk", "gb2312"] # (※2)字符集选单
+      reset: 0                           #     默认 UTF8
       states:
         - UTF-8
         - GBK
@@ -36,14 +35,7 @@ patch:
     - name: show_emoji
       reset: 1
       states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
-    # - name: s2tw                  # 簡繁轉換
-    #   reset: 1
-    #   states: [ "簡化字", "標準字" ]
-    - name: t2tw                  # 正繁轉換
-      states: [ "傳承字", "標準字" ]
-      reset: 0
-  # simplifier:
-  #   option_name: zh_simp
+
 
   engine/filters:
       - simplifier
@@ -72,7 +64,7 @@ patch:
     spelling_hints: 9
     enable_completion: false     # 是否启用英文输入联想补全
     enable_sentence: false
-    initial_quality: -1           # 调整英文候选词的位置，如 -3 会更靠后
+    initial_quality: -2           # 调整英文候选词的位置，如 -3 会更靠后
 
 #  載入朙月拼音擴充詞庫
   "translator/dictionary": luna_pinyin.extended
