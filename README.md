@@ -4,7 +4,7 @@
 ![Star](https://img.shields.io/github/stars/bs10081/Rime-Cx330)
 [![GitHub issues](https://img.shields.io/github/issues/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/issues)
 
-## 感謝使用本Rime配置文件
+## 感謝使用柴Rime配置文件
 
 本輸入法適配小鶴雙拼、全拼、五筆
 支持特定條件下中英混合輸入、Emoji輸入、簡繁轉換、傳承字標準字轉換、UTF-8 GBK編碼轉換、200萬詞庫覆蓋日常絕大多數場景。
@@ -63,7 +63,7 @@
 
 ### [![Rime網站](https://img.shields.io/badge/Website-Rime-9cf)](https://rime.im)
 
-# 請柴妹喝杯咖啡
+# 請柴喝杯咖啡
 
 LBC錢包地址：`bc2FpeaknTyveZhzTatj6VWjshmxVYPfC5`
 
