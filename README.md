@@ -1,4 +1,4 @@
-# 柴妹的中州韻輸入法配置
+# 柴的中州韻輸入法配置
 [![Commit](https://img.shields.io/github/last-commit/bs10081/Rime-Cx330/main?color=red)](https://github.com/bs10081/Rime-Cx330/archive/main.zip)
 [![GitHub Tag](https://img.shields.io/github/tag/bs10081/Rime-Cx330)](https://github.com/bs10081/Rime-Cx330/releases)
 ![Star](https://img.shields.io/github/stars/bs10081/Rime-Cx330)
