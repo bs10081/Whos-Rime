@@ -48,8 +48,7 @@
 - 〔emoji〕`/Opencc/emoji*`
 > 編輯時請使用Tab，禁止使用空格，否則配置文件將失效，甚至導致編譯失敗。
 
-具體配置修改方法請詳讀 [官方wiki](https://github.com/rime/home/wiki)
-
+具體配置修改方法請詳讀 [官方wiki](https://github.com/rime/home/wiki)、[柴Rime配置指南](https://hackmd.io/2S-zilDSTweSOvR8cMFluA)
 ---
 
 ## Rime::Home
