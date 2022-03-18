@@ -43,6 +43,9 @@ scomper	scomper
 ……	tt
 、	tt
 # 英文單字(一定會出現在首個字符)
+LINE Pay	linepay
+Apple Pay	applepay
+iCloud	icloud
 iOS	ios
 Android	android
 Android	and
@@ -84,23 +87,24 @@ package.json	pkgjs
 Generate Ninja	GN
 npm	npm
 License	lic
-Final Cut Pro X finalcutprox
 Firefox	firefox
 YouTube	youtube	1
 YouTuber	youtuber
 PUBG	pubg	3
 CSGO	csgo	3
+Logseq	logseq	
 # 蘋果產品
+iPadOS	iPadOS
 macOS	macos
 Apple	apple
 iPhone	iphone
-MacBook Pro	mbp
+MacBook Pro	mbp	2
 FaceID	faceid
 FaceTime	facetime
 iPad	ipad
 iPad Pro	ipadpro
 iPad Air	ipadair
-iPad mini	iPadmini
+iPad Mini	ipadmini	99
 AirPods airpods 1
 AirPods Pro airpodspro  1
 AirPods Max airpodsmax  1
@@ -114,6 +118,16 @@ macOS High Sierra	macoshs 1
 macOS Catalina	macosca 1
 macOS Big Sur	macosbigsur 1
 macOS Big Sur   macosbi 1
+AirTag	airtag	1
+AirPods	airpods	99
+AirPods Pro	airpods	1
+Mac mini	macmini	1
+Mac Studio	macstudio	1
+Final Cut Pro X finalcutprox
+Final Cut Pro X	fcpx	99
+MagSafe	magsafe	99
+MagSafe Battery Pack	magsafebatterypack	99
+MagSafe Battery Pack	mbp	1
 # 還沒分好類
 反恐開箱：全球血崩	csgo	1
 反恐精英：全球攻勢	csgo	2
@@ -123,15 +137,8 @@ Microsoft	weiruan	3
 巨硬	weiruan	2
 柴妹    chaimei 1
 柴妹    idmw    1
-<<<<<<< HEAD
 BiliBili    bilibili    1
-=======
-<<<<<<< HEAD
-BiliBili    bilibili    1
-=======
->>>>>>> 792bd51fee547e43dfdf99460e42079e5925e051
->>>>>>> origin/beta
-
+ICU	icu	2
 
 
 # 英文縮寫
@@ -150,26 +157,28 @@ Rolling on the floor laughing   rofl    2
 Too long; Didn't read   tl;dr   2
 Talk to you later   ttyl    2
 Player's Unknow Battle Grounos	pubg	2
-Final Cut Pro	fcpx
 Youtube	ytb
 Anaconda	ana
 Microsoft	msft
+Thank you	ty	2
+Wait what?	waitw	2
+Nice shot	ns	2
+Good Game	gg	2
+Nice try	nt	2
+I don't know.	idk	2
+
 
 
 #自定義漢語單詞
-enenen	嗯嗯嗯
-ykykyk	嚶嚶嚶  1
-yinyinyin	嚶嚶嚶  1
-gckkdm	搞快點  1
-gkd 搞快點  2
+嗯嗯嗯	enenen
+嚶嚶嚶	ykykyk	1
+搞快點 gkd  2
 uihz	時候
 hc	好
 xswl	笑死我了    2
 xmsl	羨慕死了    2
 awsl    啊我死了    2
 woc	臥艹    2
-wdnmd   我屌你媽的  2
-yysy    有一說一    2
 
 
 #摩斯密碼
