@@ -39,13 +39,13 @@
 - 〔配置同步〕 `installation.yaml`
 - 〔快捷鍵〕`key_bindings.yaml`
 - 〔詞庫管理〕`luna_pinyin.extended.dict.yaml`
-- 〔BetterRime詞庫增強包〕`luna_pinyin.*.dict.yaml`
+- 〔BetterRime詞庫增強包〕`/luna_pinyin_extended_dicts/luna_pinyin.*.dict.yaml`
 - 〔基礎詞庫〕`*.dict.yaml`
 - 〔自定義碼表〕`custom_phrase.txt`
 - 〔符號管理〕`symbols.yaml`
 - 〔Windows版外觀〕`weasel.custom.yaml`
 - 〔macOS版外觀〕`squirrel.custim.yaml`
-- 〔emoji〕`/Opencc/emoji*`
+- 〔emoji〕`/opencc/emoji*`
 > 編輯時請使用Tab，禁止使用空格，否則配置文件將失效，甚至導致編譯失敗。
 
 具體配置修改方法請詳讀 [官方wiki](https://github.com/rime/home/wiki)、[柴Rime配置指南](https://hackmd.io/2S-zilDSTweSOvR8cMFluA)
