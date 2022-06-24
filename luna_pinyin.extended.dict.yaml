@@ -20,7 +20,7 @@ use_preset_vocabulary: true
 #下面的是本词库包含的所有词库，请根据需要开启/禁用，词条前添删#号即可开启/关闭词库。
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 import_tables:
-  - luna_pinyin_extended_dicts/luna_pinyin
+  - luna_pinyin
   - luna_pinyin_extended_dicts/luna_pinyin.hanyu
   - luna_pinyin_extended_dicts/luna_pinyin.extra_hanzi
   - luna_pinyin_extended_dicts/luna_pinyin.cn_en
