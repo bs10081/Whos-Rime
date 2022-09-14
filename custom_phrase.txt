@@ -66,18 +66,7 @@ Rush	rush
 MacBook	macbook
 Chrome	chrome
 Chrome OS	chromeos
-Notion	notion
-WeChat	wechat
-QQ	qq
-Visual Studio Code	vscode
-LINE	line
-Telegram	telegram
-Slack	slack
-Spack	spack
-iMessage	imessage
-Google Photos	googlephotos
 GUI	gui
-Anaconda	annaconda
 GitHub	github
 Node.js	node
 ECMAScript	ecmas
@@ -87,18 +76,18 @@ package.json	pkgjs
 Generate Ninja	GN
 npm	npm
 License	lic
-Firefox	firefox
-YouTube	youtube	1
 YouTuber	youtuber
 PUBG	pubg	3
 CSGO	csgo	3
-Logseq	logseq	
+
+
 # 蘋果產品
 iPadOS	iPadOS
 macOS	macos
 Apple	apple
 iPhone	iphone
 MacBook Pro	mbp	2
+Mac	mac	1
 FaceID	faceid
 FaceTime	facetime
 iPad	ipad
@@ -140,7 +129,33 @@ Microsoft	weiruan	3
 BiliBili    bilibili    1
 ICU	icu	2
 
+# 通訊協議
+WebDAV	webdav	1
+Samba	samba	1
+VNC	vnc	1
+NFS	nfs	1
+Trojan	trojan	1
+Shadowsocks	shadowsocks	2
+ShadowsocksR	shadowsocks	1
 
+# App
+iTerm2	iterm	1
+Sublime Text	sublime	1
+Firefox	firefox	1
+YouTube	youtube	1
+Logseq	logseq	
+Notion	notion
+WeChat	wechat
+QQ	qq
+Visual Studio Code	vscode
+LINE	line
+Telegram	telegram
+Slack	slack
+Spack	spack
+iMessage	imessage
+Google Photos	googlephotos
+Anaconda	annaconda
+Spotfiy	spotify
 # 英文縮寫
 I've	ive 2
 Thanks	thx 2
@@ -166,7 +181,8 @@ Nice shot	ns	2
 Good Game	gg	2
 Nice try	nt	2
 I don't know.	idk	2
-
+By the way	btw	1
+BTW	btw	2
 
 
 #自定義漢語單詞
